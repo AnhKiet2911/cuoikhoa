@@ -1,0 +1,244 @@
+/* nav-bar  */
+.nav-bar {
+    overflow: hidden; 
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item {
+    color: rgb(13, 9, 9);
+    text-decoration: none;
+    font-size: 110%;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-item:hover{
+    background-color: rgb(220, 219, 219);
+    border-radius: 3px;
+}
+#nav-bar{
+    margin-left: auto ;
+}
+#health {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 500%;
+    color: green;
+}
+#p1 {
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#avatar:hover{
+    background-color:rgb(220, 219, 219) ;
+    border-radius: 50%;
+}
+
+#avatar{
+    margin-left: 10px;
+}
+
+/* slideshow  */
+.alr{
+    text-decoration: none;
+}
+
+.arl{
+    font-size: 40px;
+    color: black;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 100px;
+}
+
+.arl:hover{
+    color: green;
+}
+
+
+/* footer  */
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bcontact1 {
+    margin-top: 200px;
+    background-color: green;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color: white;
+    margin-top: auto;
+}
+
+#title{
+    margin-top: 100px;
+}
+
+.inputcontact {
+    display: block;
+}
+
+.pcontact {
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#contact1{
+    margin-top: 7%;
+    margin-left: 20%;
+    text-align: start;
+}
+
+#contact2{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+form {
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color:linear-gradient(
+    to bottom,rgb(255, 255, 255) 25%,white 25%,) ;
+}
+
+.inputcontact {
+    margin: 15px 10px;
+    width: 450px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 2px rgb(245, 245, 245);
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255) 96%,rgb(255, 255, 255) 4%
+
+
+    );
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 300px;
+    color: green;
+    margin-left: 12px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbar1{
+    width: 84%;
+}
+
+.navbar2{
+    width: 16%;
+}
+
+form {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 100px auto 0;
+    padding-bottom: 40px;
+    border-radius: 3px;
+    background-color:linear-gradient(
+        to bottom,pink 25%,white 25%,) ;
+}
+form h3 {
+    box-sizing: border-box;
+    color: rgb(1, 98, 1);
+    
+}
+input {
+    margin: 10px 1px;
+    width: 400px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 2px rgb(1, 86, 1);
+    background: linear-gradient(
+        to bottom,
+        rgb(1, 98, 1) 96%,rgb(147, 224, 122) 4%
+
+
+    );
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: rgb(1, 98, 1);
+    outline: none;
+}
+button {
+    border: none;
+    background: rgb(1, 76, 1);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    color: rgb(241, 235, 235);
+    margin-left: 5% ;
+    margin-top: 15px;
+}
+
+#dK{
+    color:rgb(1, 98, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 29%;
+    padding-top: 20px;
+}
+
+.text-box1{
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+
+.text-box{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(https://www.apple.com/newsroom/images/values/health/Apple-Health-study-July-2022-hero_big.jpg.slideshow-large_2x.jpg);
+    background-size: cover ;
+}
+
+.box{
+    background-color: rgb(229, 245, 233);
+    width: 40%;
+    margin-left: 30%;
+    height: 150%;
+    border-radius: 10%;
+}
+
+.clickhere{
+    margin-left: 25%;
+    color: rgb(1, 98, 1);
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.clickhere:hover{
+    color: rgb(12, 92, 205);
+}
+  

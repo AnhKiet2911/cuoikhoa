@@ -1,0 +1,80 @@
+form {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 120px auto 0;
+    padding-bottom: 40px;
+    border-radius: 3px;
+    background-color:linear-gradient(
+        to bottom,pink 25%,white 25%,) ;
+}
+form h3 {
+    box-sizing: border-box;
+    color: rgb(1, 98, 1);
+    
+}
+input {
+    margin: 10px 1px;
+    width: 400px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 2px rgb(1, 86, 1);
+    background: linear-gradient(
+        to bottom,
+        rgb(1, 98, 1) 96%,rgb(147, 224, 122) 4%
+
+
+    );
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: rgb(1, 98, 1);
+    outline: none;
+}
+button {
+    border: none;
+    background: rgb(1, 76, 1);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    color: rgb(241, 235, 235);
+    margin-left: 25px ;
+}
+
+#dK{
+    color:rgb(1, 98, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 33%;
+    padding-top: 20px;
+}
+
+.text-box1{
+    margin-left: 20%;
+}
+
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+}
+.navbar-item {
+    color: black;
+    text-decoration: none;
+    font-size: 130%;
+    margin: 20px;
+}
+.text-box{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(https://images.everydayhealth.com/images/healthy-living/about-us-hero-alt.jpg?sfvrsn=68592040_1);
+    background-size: cover;
+}
+
+.box{
+    background-color: rgb(229, 245, 233);
+    width: 40%;
+    margin-left: 30%;
+    height: 150%;
+    border-radius: 10%;
+}
+  

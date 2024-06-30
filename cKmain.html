@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="cKmain.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Nav bar -->
+    <div class="nav-bar">
+        <div class="navbar1">
+            <a href="" id="avatar"><img style="display: inline;" width=1.6% src="https://vivureviews.com/wp-content/uploads/2022/08/avatar-vo-danh-9.png" alt=""></a>
+            <a href="cKmain.html" class="navbar-item" >Trang chủ</a>
+            <a href="about.html" class="navbar-item" >Nội dung</a>
+            <a href="#contact1" class="navbar-item" >Liên hệ</a>
+            <a href="con.html" class="navbar-item" >Đóng góp</a>
+            <a href="change.html" class="navbar-item" >Cập nhật</a>
+        </div>
+    
+        <div class="navbar2">
+            <a href="cKsignin.html"  class="navbar-item">Đăng nhập</a> 
+            <a href="cKregister.html"  class="navbar-item">Đăng ký</a> 
+        </div>
+       </div>
+    
+
+   <!-- slideshow  -->
+   <div class="slide-show">
+    <center>
+        <img class="slide" src="https://static.vecteezy.com/system/resources/previews/006/114/709/non_2x/world-health-day-illustration-concept-with-people-exercising-healthy-lifestyle-a-person-doing-yoga-jogging-and-cycling-flat-style-illustration-vector.jpg" width="100%">
+        <img class="slide" src="https://static.vecteezy.com/system/resources/previews/002/136/626/original/world-health-day-illustration-concept-with-couple-jogging-and-a-person-cycling-in-the-park-healthy-lifestyle-vector.jpg" width="100%">
+        <img class="slide" src="https://static.vecteezy.com/system/resources/previews/006/114/702/original/world-health-day-illustration-concept-with-people-are-exercising-to-stay-healthy-flat-style-illustration-vector.jpg" width="100%">
+        <img class="slide" src="https://i.pinimg.com/originals/a3/04/05/a30405aa47967c5b9ab46896312df093.jpg" width="100%">
+
+      
+      <h1 id="health">HEALTH</h1>
+      <p id="p1">The most important thing in life</p>
+        <script>
+            w3.slideshow(".slide", 4000);
+        </script>
+    </center>
+
+
+    <!-- footer  -->
+        <center>
+<div id="footer">
+                <!-- contact  -->
+        <div id="bcontact1">
+            <div id="contact1">
+                <h1 class="title">Liên hệ</h1>
+                <p class="pcontact">Địa chỉ: Hanoi, Viet Nam</p>
+                <p class="pcontact">SĐT: 0928738686</p>
+                <p class="pcontact">Email: Kiet2911@gmail.com</p>
+            </div>
+            <div id="contact2">
+                <form action="">
+                    <input id="input1" class="inputcontact"type="text" placeholder="Tên">
+                    <input id="input2" class="inputcontact" type="text" placeholder="Email">
+                    <input id="input3" class="inputcontact" type="text" placeholder="SĐT">
+                    <input id="input4" class="inputcontact" type="text" placeholder="Bạn có thể góp ý hoặc cần hỗ trợ">
+                    <button onclick="contact()">Gửi </button>
+                </form>
+            </div>
+
+        </center>
+    </div> 
+</div>
+        <script src="cK.js"></script>
+</body>
+</html>
